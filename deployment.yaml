@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: australia-southeast1-docker.pkg.dev/sit737-25t1-anand-b26c383/sit737ishi/node-app:latest
+        image: anandishika07/my-app:v2
         ports:
-        - containerPort: 8080
+        - containerPort: 3001
       imagePullSecrets:
-      - name: regcred 
+      - name: regcred
